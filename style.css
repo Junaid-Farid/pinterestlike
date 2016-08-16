@@ -1,0 +1,219 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2016, 12:52:41 PM
+    Author     : Junaid
+*/
+* {
+    font-family: 'Open Sans';
+}
+body{
+    background-color: #ffffff; 
+}
+#header {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.inline {
+    display: inline;
+}
+
+/*========logo ========*/
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*========search input ========*/
+.stylish-input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.stylish-input-group .input-group-addon{
+    background: #f7f6f6 !important;
+    color: #b2b1b1;
+    border-color: #e7e7e7;
+    padding: .375rem 0.6rem;
+}
+.stylish-input-group .form-control{
+    background-color: #f7f6f6;
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#e7e7e7;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+/*======== end search input========*/
+
+/*======== navigation========*/
+
+.nav { 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px; 
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+.navbar {
+    position: absolute;
+    z-index: 3000;
+    padding: 5px 10px; 
+    border: 1px solid #e7e7e7;
+}
+.navbar-toggler {
+    background-color: #f7f6f6;
+    padding: 3px 16px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    font-size: 1.45rem;
+    color: #bbbbbb;
+    bottom: 0; 
+}
+.navbar-nav .dropdown ul li {
+    font-size: 18px;
+    padding: 5px 12px; 
+}
+.navbar-nav .dropdown ul li a { 
+    color: #717171;
+    text-decoration: none;
+}
+#user_img {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#user_img img {
+    display: inline-block;
+}
+#user_img span {
+    padding: 5px 12px;
+    color: #8c8c8c;
+    font-size: 17px;
+    display: inline-block;
+}
+/*======== end navigation ========*/
+
+
+/*========Content Area========*/
+
+#content {
+    background-color: #f0efee;
+    border-top: 1px solid #d6d5d4;
+}
+.card {
+    font-family: 'Open Sans';
+    background-color: #ffffff;
+    border: 1px solid #dad9d9;
+    height: auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.card:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); 
+    margin-top: -1px; 
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.short-description {
+    margin : 15px;
+    color: #acaaaa;
+}
+.card img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.card-img-top {
+    border-radius: 0px;
+}
+.card h4 { 
+    font-size: 18px;
+    padding-left: 3px; 
+    padding-bottom: 5px;
+    color: #717171;
+}
+.card i {
+    padding: 2px;
+}
+.card .game-category {
+    font-size: 15px;
+    padding: 1px; 
+}
+.card p {
+    padding: 5px;
+    font-size: 14px;
+}
+.post-rating {
+    border-top: 1px solid #e9e9e9;
+    padding: 15px;
+    padding-right: 20px;
+    font-size: 19px;
+    color: #dddddd;
+} 
+.post-rate {
+    color: #b9cb41;
+}
+
+/* === card hover ===== */
+
+.card img {
+    width: 100%;
+    max-width: 100%;
+}
+@media (max-width: 1200px){
+    .nav {
+        width: 100%;
+    }
+}
+@media (min-width: 769px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+@media (max-width: 768px) { 
+    #user_img span {
+        padding: 5px 1px;
+        font-size: 13px;
+        display: inline-block;
+    } 
+}
+@media (max-width: 767px) { 
+    .navbar-toggler{
+        font-size: 1.1rem;
+        padding: 0.40rem 0.70rem;
+    }
+}
+@media (max-width: 544px) { 
+    .logo img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative; 
+        width: 100%;
+        display: block;
+    }
+    #user_img {
+        float: none;
+    }
+    .navbar-toggler {
+        padding: 7px 16px;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+}
